@@ -235,6 +235,8 @@ int main(int argc, char *argv[])
 	int ret = 0;
 	char cFun;
 	
+	printf("Open device failed\n");
+
 	if(!Loadlib())
 	{
 		return 0;
